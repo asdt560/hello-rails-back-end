@@ -22,7 +22,7 @@
 
 # 📖 hello-rails-react <a name="about-project"></a>
 
-**hello-rails-back-end** is a rails API-only application which serves as the back end to 'hello-react-front-end'.
+**hello-rails-back-end** is a rails API-only application which serves as the back end to 'hello-react-front-end'. It manages the database which stores the greetings and serves random greetings through its API endpoint to the front-end app.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -53,7 +53,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Generate greeting:** allows the user to generayte a random greeting from a list stored in the database.
+- **messages_controller:** upon request through the api route, it selects a random greeting message from the database.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
